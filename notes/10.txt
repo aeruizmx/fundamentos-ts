@@ -1,0 +1,6 @@
+TIPO ANY
+- Usado para capturar valores dinamicos
+- Los valores pueden cambiar de tipo en el tiempo:
+  - APIs externas
+  - Librerias de terceros
+- Usarse como ultimo recurso
