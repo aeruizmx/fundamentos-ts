@@ -1,0 +1,2 @@
+tsc --init - Generar el archivo tsconfig
+tsc - compila los archivos de ts a js
