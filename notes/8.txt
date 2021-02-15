@@ -22,4 +22,3 @@ Null
 Undefined
 Never
 Object
-

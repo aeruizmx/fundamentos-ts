@@ -1,0 +1,18 @@
+Number
+- Valores numericos
+- Hexadecimales
+- Binarios
+- Octales
+
+Boolean
+- El tipo de dato mas simple
+- Dos unicos valores son true y false
+
+String
+- Para trabajar con datos textuales o cadenas
+- Asi como en JS, pueden usar comillas dobles " " o comillas simples ' '
+
+Template String
+- Permiten definir multiples lineas de texto
+- Pueden contener expresiones o variables embebidas
+- Se debe usar el caracter backtick/backquote(`) y para expresiones ${expr}
