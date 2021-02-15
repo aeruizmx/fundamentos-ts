@@ -1,0 +1,25 @@
+Tipado
+Explicito
+Define una sintaxis para la creacion de variables con tipo de dato
+
+[nombre de variable] : [Tipo de dato]
+
+Inferido
+Typescript tiene la habilidad de deducir el tipo en funcion de un valor
+
+[nombre de variable] : [Valor]
+
+Tipos basicos o primitivos
+Number
+Boolean
+String
+Array
+Tuple
+Enum
+Any
+Void
+Null
+Undefined
+Never
+Object
+
