@@ -1,0 +1,14 @@
+Herencia de clases y propiedades estáticas
+
+Soporta este patros en comundo el el mundo de la POO
+Implementa la habilidad de extender codigo de clases existentes a traves de la herencia
+
+Clases Abstractas
+Son la base de donde otras clases podrian derivarse.
+A diferencia de una interfaz, una clase abstracta puede implementar funciones para sus instanacias
+La palabra reservada es abstract
+
+Propiedades estaticas y propiedades de solo lectura
+Las clases por lo general definen atributos y metodos aplicables a las instancias de las mismas.
+A traves de la palbra reservada static se puede definir un miembro visible a nivel de clase
+Al igual que las interfaces, podemos usar la palabra reservada readonly para marcar el miembrode una clasecomo solo lectura
