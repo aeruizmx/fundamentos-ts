@@ -1,0 +1,12 @@
+UNION DE TIPOS
+En TS se puede definir una variable con multiples tipos de datos: Union Type
+Se usa el simbolo de pipe | entre los tipos
+
+ALIAS DE TIPOS
+Permite crear un alieas como nuevo nombre para un tipos
+El alias se puede aplicar tambien a un conjunto o combinacion de tipos
+Se usa la palabra reservada type
+
+TIPOS LITERALES
+Puede contener unicamente una cadena del conjunto
+Se usan cadenas como tipos combinados con el simbolo de pipe | entre ellos
