@@ -1,0 +1,2 @@
+Clases Metodos Set y Get
+Soporta los metodos get y seet como una forma de intercerpptar los accesos a los objetos miembros privados de un objeto
