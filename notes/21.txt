@@ -1,0 +1,6 @@
+Interfaces Propiedades Opcionales
+No todas las propiedades de una interfaz podrian ser requeridas.
+Establecemos una propiedad como opcional con el simbolo (?) despues del nombre
+
+Algunas propiedades de la interfaz podrian no ser modificables una vez creado el objeto
+Esto es posible usando readonly antes del nombre de la propiedad
