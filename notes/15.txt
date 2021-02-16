@@ -1,0 +1,3 @@
+TUPLE
+- Permite expresar un conjunto de valores, con sintaxis de los arreglos
+- Los tipos de datos son conocidos
