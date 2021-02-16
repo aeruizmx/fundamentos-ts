@@ -1,0 +1,4 @@
+// ARRAY
+
+Al igual que JavaScript, TypeScript permite definir un arreglo para contener un conjunto de valores
+Usa dos notaciones: [] y Array<tipo>
