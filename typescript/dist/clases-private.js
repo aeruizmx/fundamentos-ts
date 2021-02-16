@@ -7,35 +7,33 @@ var PhotoOrientation;
     PhotoOrientation[PhotoOrientation["Square"] = 2] = "Square";
     PhotoOrientation[PhotoOrientation["Panorama"] = 3] = "Panorama";
 })(PhotoOrientation || (PhotoOrientation = {}));
-var Picture = /** @class */ (function () {
-    function Picture(id, title, orientation) {
+class Picture {
+    constructor(id, title, orientation) {
         this.id = id;
         this.title = title;
         this.orientation = orientation;
     }
     //Comportamiento
-    Picture.prototype.toString = function () {
-        return "[id: " + this.id + ", title: " + this.title + ", orientation: " + this.orientation + "]";
-    };
-    return Picture;
-}());
-var Album = /** @class */ (function () {
-    function Album(id, title) {
+    toString() {
+        return `[id: ${this.id}, title: ${this.title}, orientation: ${this.orientation}]`;
+    }
+}
+class Album {
+    constructor(id, title) {
         this.id = id;
         this.title = title;
         this.pictures = [];
     }
-    Album.prototype.addPicture = function (picture) {
+    addPicture(picture) {
         this.pictures.push(picture);
-    };
-    return Album;
-}());
-var album = new Album(1, 'Familia');
-var picture = new Picture(1, 'Sun', PhotoOrientation.Square);
+    }
+}
+const album = new Album(1, 'Familia');
+const picture = new Picture(1, 'Sun', PhotoOrientation.Square);
 album.addPicture(picture);
 console.log('album', album);
-// Accediendo a los miebros Publicos
-picture.id = 100; // public
-picture.title = 'Probando'; // public
-album.title = 'Personal activities';
+// Accediendo a los miebros Privados
+//picture.id = 100; // Property 'id' is private and only accessible within class 'Picture'
+//picture.title = 'Probando'; // Property 'title' is private and only accessible within class 'Picture'.
+//album.title = 'Personal activities'; // Property 'title' is private and only accessible within class 'Album'
 console.log('album', album);

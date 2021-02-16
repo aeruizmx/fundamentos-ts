@@ -1,7 +1,7 @@
 "use strict";
 //OBJECT
 //EXPLICITO
-var user;
+let user;
 user = {}; // Object
 user = {
     id: 1,
@@ -12,12 +12,12 @@ user = {
 console.table(user);
 // Object vs object (Clase JS vs tipo TS)
 // console.log(user.username); // Property 'username' does not exist on type 'object'
-var myObject = {
+const myObject = {
     id: 1,
     username: 'paparazzi',
     firstname: 'Andres',
     isPro: true
 };
-var isInstance = myObject instanceof Object; // Clase Object de JavaScript
+const isInstance = myObject instanceof Object; // Clase Object de JavaScript
 console.log('isInstance', isInstance);
 console.log(myObject.username);

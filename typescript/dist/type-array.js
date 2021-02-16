@@ -2,14 +2,14 @@
 // ARRAY
 //CORCHETES []
 //EXPLICITO
-var users;
+let users;
 users = ['Ruiz', 'Gonzalez', 'Perez'];
 // users = [1,2,3]; //Error Type 'number' is not assignable to type 'string'
 //INFERIDO
-var others = ['Uno', 'Dos', 'Tres'];
+let others = ['Uno', 'Dos', 'Tres'];
 //others = [1,2,3]; //Error Type 'number' is not assignable to type 'string'
 //ARRAY<TIPO>
-var pictureTitles;
+let pictureTitles;
 pictureTitles = ['Una', 'Otra', 'Monalisa'];
 //ACCESO A VALORES EN ARRAY
 console.log('first user', users[0]);

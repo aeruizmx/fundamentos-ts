@@ -9,34 +9,34 @@ enum PhotoOrientation {
 
 class Picture {
   //Propiedades
-  id: number;
-  title: string;
-  orientation: PhotoOrientation;
+  public id: number;
+  public title: string;
+  public orientation: PhotoOrientation;
 
-  constructor(id: number, title: string, orientation:PhotoOrientation){
+  public constructor(id: number, title: string, orientation:PhotoOrientation){
     this.id = id;
     this.title = title;
     this.orientation = orientation;
   }
 
   //Comportamiento
-  toString(){
+  public toString(){
     return `[id: ${this.id}, title: ${this.title}, orientation: ${this.orientation}]`;
   }
 }
 
 class Album {
-  id: number;
-  title: string;
-  pictures: Picture[];
+  public id: number;
+  public title: string;
+  public pictures: Picture[];
 
-  constructor(id: number, title: string){
+  public constructor(id: number, title: string){
     this.id = id;
     this.title = title;
     this.pictures = []
   }
 
-  addPicture(picture: Picture){
+  public addPicture(picture: Picture){
     this.pictures.push(picture);
   }
 }
@@ -44,4 +44,10 @@ class Album {
 const album: Album = new Album(1,'Familia');
 const picture: Picture = new Picture(1, 'Sun',PhotoOrientation.Square);
 album.addPicture(picture);
+console.log('album',album);
+
+// Accediendo a los miebros Publicos
+picture.id = 100; // public
+picture.title = 'Probando'; // public
+album.title = 'Personal activities';
 console.log('album',album);

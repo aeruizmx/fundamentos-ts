@@ -1,0 +1,11 @@
+Clases publicas y Privadas
+Clases Miembros Publicos
+Typescript define un modificador de acceso publico por defecto para los miembros de la clase.
+Tambien es posible marcar un miembre como publico usando la palabra reservada public
+
+Clases Miembros Privados
+Define una manera propia de declarar o marcar un miembrp como privado usando la palabra reservada private
+
+Miembros Privados ECMAScript
+Tambien soporta (a partir de la version 3.8) la nueva sintaxis JavaScript para miembros rivados: #atributo
+Esta caracteristica puede ofrecer mejores garantias de asilamiento en miembros privados

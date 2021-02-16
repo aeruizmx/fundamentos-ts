@@ -15,28 +15,28 @@ function createPictureTSOptionales(title, date, size) {
 createPictureTSOptionales('My birthday', '2020-01-01', '1000x1000');
 createPictureTSOptionales('My birthday', '2020-01-01');
 // Flat Array Function
-var createPic = function (title, date, size) {
+let createPic = (title, date, size) => {
     return {
         title: title,
         date: date,
         size: size
     };
-    return { title: title, date: date, size: size };
+    return { title, date, size };
 };
-var picture = createPic('El grito', '2021-01-02', '100x100');
+const picture = createPic('El grito', '2021-01-02', '100x100');
 console.log('picture', picture);
 // Tipo de retorno con TypeScript
 function handleError(code, message) {
     //Procesamiento del codigo, mensaje
     if (message === 'error') {
-        throw new Error(message + ". Code error: " + code);
+        throw new Error(`${message}. Code error: ${code}`);
     }
     else {
         return 'An error has occured';
     }
 }
 try {
-    var result = handleError(200, 'OK'); // string
+    let result = handleError(200, 'OK'); // string
     console.log('result', result);
     result = handleError(404, 'error'); // never
     console.log('result', result);

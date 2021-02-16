@@ -1,23 +1,23 @@
 "use strict";
 // NULL
 //EXPLICITO
-var nullVariable;
+let nullVariable;
 nullVariable = null;
 //nullVariable = 0; //Error
-var other = null;
+let other = null;
 other = 'test';
 console.log('nullVariable', nullVariable);
 console.log('other', other);
 //UNDEFINED
-var undefinedVariable;
+let undefinedVariable;
 undefinedVariable = undefined;
 //undefinedVariable = 10; // Error
-var otherUndefi = undefined;
+let otherUndefi = undefined;
 otherUndefi = 100;
 console.log('undefinedVariable', undefinedVariable);
 console.log('otherUndefi', otherUndefi);
 //NULL Y UNDEFINED COMO SUBTIPOS
 // --strictNullChecks
-var albumName;
+let albumName;
 //albumName = null; // Error
 //albumName = undefined; // Error
