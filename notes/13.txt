@@ -1,0 +1,8 @@
+OBJECT
+- Representa un valor no primitivo
+- Tipo que no sea, number, string, boolean, null, undefined, etc.
+
+Object vs object
+- Object: instancia de la clase Object de JS
+- object: tipo de valores no primitivos
+Con este tipo no se puede acceder a las propiedades del objeto
