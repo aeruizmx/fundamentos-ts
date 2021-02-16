@@ -1,0 +1,5 @@
+ASERCIONES DE TIPO
+Cuando el programador puede conocer mas que TypeScript sobre el valor de una variable
+En un mensaje al compilador: "Confia en mi, se lo que hago"
+Se parece al casting de tipos en otros lenguajes de programación
+Usa dos sintaxis: <Angle Bracker> y (variable as tipo)
