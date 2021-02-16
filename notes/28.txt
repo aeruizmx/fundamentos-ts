@@ -1,0 +1,8 @@
+Modulos en TypeScript
+Proveen un mecanismo para una mejor organización del código y promueven su reutilización
+A partir de ECMAScript 2015, los módulos son parte nativa del lenguaje de JS
+
+Importando y exportando en módulos
+Generalmente se define un módulo con la idea de agrupar código relacionado.
+Podemos tomar criterios en torno a la funcionalidad, features, utilitarios, modelos, etc.
+Los miembros de modulo interactuan como el uso de las palabras reservadas import y export
