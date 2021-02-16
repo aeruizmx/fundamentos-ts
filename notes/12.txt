@@ -1,0 +1,8 @@
+Null y Undefined
+- En TypeScript, ambos valores tienen sus respectivos tipos:
+  - Null
+  - Undefined
+
+La Opcion --strictNullChecks
+Solo permite asignar null y undefined a una variable de tipo any o sus tipos respectivos
+Ayuda a evitar errores comunes en programación de apps en el ámbito JavaScript
