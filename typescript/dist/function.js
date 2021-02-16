@@ -25,3 +25,21 @@ var createPic = function (title, date, size) {
 };
 var picture = createPic('El grito', '2021-01-02', '100x100');
 console.log('picture', picture);
+// Tipo de retorno con TypeScript
+function handleError(code, message) {
+    //Procesamiento del codigo, mensaje
+    if (message === 'error') {
+        throw new Error(message + ". Code error: " + code);
+    }
+    else {
+        return 'An error has occured';
+    }
+}
+try {
+    var result = handleError(200, 'OK'); // string
+    console.log('result', result);
+    result = handleError(404, 'error'); // never
+    console.log('result', result);
+}
+catch (error) {
+}
