@@ -1,0 +1,2 @@
+Interfaces
+Constituyen una forma poderosa de definir contratos tanto para tu proyecto, como para el codigo externo del mismo
