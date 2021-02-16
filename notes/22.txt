@@ -1,0 +1,4 @@
+Extendiendo Interfaces
+Las interfaces pueden extenderse unas de otras. 
+Esto permite copiar los miembros ya definidos en una interfaz a otra,
+ganado flexiblilidad y reusabilidad
