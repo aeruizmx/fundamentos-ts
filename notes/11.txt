@@ -1,0 +1,3 @@
+VOID
+- Lo opuesto a any
+- Se usa en retorno de funciones de este tipo
