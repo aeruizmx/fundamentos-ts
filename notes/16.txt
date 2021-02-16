@@ -1,0 +1,3 @@
+ENUM
+Permiten definir un conjunto de constantes con nombre
+Tienen la ventaja de adaptarse al contexto de la aplicación
