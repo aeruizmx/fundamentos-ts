@@ -1,0 +1,5 @@
+Principio de responsabilidad única
+
+Idealmente, un archivo deberia tener un proposito o responsabilidad unica:
+definir una clase, una interfaz, un enumerado, etc.
+Esto mejora la legibilidad de código, facilita su lectura, testing y favorece su mantenimiento.
