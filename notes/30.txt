@@ -1,0 +1,9 @@
+Resolviendo Módulos
+TS resuelve la ubicación de módulos observando referencias relativas y no relativas.
+Posteriormente intenta localizar el módulo usando una estrategia de resolución de módulos.
+
+tsc --moduleResolution node
+Tiene CommonJS o UMD, mas opciones de configuración
+
+tsc --moduleResolution classic
+Cuando el modulo tiene un valore AMD, System, ES2015, poco configurable
